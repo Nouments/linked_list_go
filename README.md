@@ -10,10 +10,14 @@ this is the code and how to use this
 package linkedlist
 
 func testing(){
+    //creating new linked list
 	a:=createLinkedList("A")
+    //inserting into the right of linked list 
 	a.insertRight("B")
 	a.insertRight("C")
+    //inserting on the left of our linked list
 	a.insertLeft("D")
+    //printing our linked list
 	a.showLinkedList()
 }
 ```
