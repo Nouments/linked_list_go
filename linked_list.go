@@ -26,7 +26,6 @@ func (c *linkedList) insertRight(info string) *linkedList {
 }
 
 //inserting value into the left of the linked list
-
 func (c *linkedList) insertLeft(info string) *linkedList {
 	n:=createLinkedList(info)
 	n.next=c
